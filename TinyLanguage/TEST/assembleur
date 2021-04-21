@@ -1,0 +1,21 @@
+MOV AX, 42
+MOV x, AX
+MOV AX, 51.2
+DIV AX, 4.0
+MOV Temp1, AX
+MOV AX, 6.2
+ADD AX, Temp1
+MOV Temp2, AX
+MOV AX, Temp2
+MOV y, AX
+MOV AX, 0.0
+MOV y, AX
+MOV AX, z
+MOV y, AX
+MOV AX, 4
+MOV x, AX
+JMP etiq10
+etiq9: 
+MOV AX, x
+MOV x, AX
+etiq11: 

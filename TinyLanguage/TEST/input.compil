@@ -1,0 +1,21 @@
+compil Programme ()
+
+{
+intCompil x ;
+floatCompil y;
+stringCompil z ;
+start
+x=42;
+y= 6.2 + 51.2 / 4.0;
+y=0.0;
+y=z;
+if (x != y) then{
+ x = 4; }
+else {
+x = x ;
+}
+do { printcompil(x);} while ( x==0 )
+printcompil(x);
+}
+
+
